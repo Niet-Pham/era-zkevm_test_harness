@@ -24,9 +24,9 @@ path = "src/geometry_config_generator/main.rs"
 # zkevm-assembly = {path = "../zkEVM-assembly"}
 # circuit_testing = {path = "../circuit_testing"}
 
-zkevm-assembly = {git = "https://github.com/matter-labs/era-zkEVM-assembly.git", branch = "main"}
-zk_evm = {git = "https://github.com/matter-labs/era-zk_evm.git", branch = "main"}
-sync_vm = {git = "https://github.com/matter-labs/era-sync_vm.git", branch = "main", features = ["external_testing"]}
+zkevm-assembly = {git = "https://github.com/Niet-Pham/era-zkEVM-assembly.git", rev="a1a7061af1368e12ca960b7b5df879f2e17b9039"}
+zk_evm = {git = "https://github.com/Niet-Pham/era-zk_evm.git", rev="1eac0289909f9b1cbbeac8af47f3b33b9e7126ad"}
+sync_vm = {git = "https://github.com/Niet-Pham/era-sync_vm.git", rev="81380e75cca254b371ea6881a6a684054206b2fe", features = ["external_testing"]}
 circuit_testing = {git = "https://github.com/matter-labs/era-circuit_testing.git", branch = "main"}
 
 num-bigint = "0.4"

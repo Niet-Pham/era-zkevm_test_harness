@@ -14,3 +14,4 @@ node_proof_*.*
 scheduler_*.*
 node_output_*.*
 .github
+.history
